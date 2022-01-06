@@ -41,8 +41,10 @@ class MyApp extends StatelessWidget {
             Text('Bonjour',
               style: TextStyle(fontFamily: 'SourceSansPro',
                 color: Colors.teal[100],
-
-
+                letterSpacing: 2.5,
+                fontWeight: FontWeight.bold,
+            ),
+            ),
           ],
         ),
       )
